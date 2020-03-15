@@ -34,6 +34,8 @@ header{
     height: 10vh;
     display: inline-block;
     width: 33vw;
+    margin-top: 1.6vh;
+    margin-right: -3px;
 }
 .category-content{
     height:6.5vh;
@@ -45,7 +47,7 @@ header{
     background-color: chartreuse;
     height: 10vh;
     display: inline-block;
-    width: 33vw;
+    width: 35.4vw;
 }
 .date-content{
     height:6.5vh;
@@ -80,7 +82,7 @@ header{
 }
 
 .details{
-    background-color: aliceblue;
+    background-color: #fffde7;
     height: auto;
     width: 100%;
     display: flex;
@@ -98,33 +100,54 @@ header{
     height: auto;
     width:100%;
     background-color:#fffde7;
-    color:gray
+    color:gray;
+    flex-direction: column;
 }
 .CATEGORY-CONTAINER{
     display:flex;
-    border:black;
+    background-color: coral;
     
     height: 10vh;
     width:10%;
     
 }
-.CATEGORY-CONTAINER h2{
-    background-color: yellowgreen;
-    color: white;
-    height: 7vh;
-    width:10vw;
-    align-items: center; 
+.CATEGORY-CONTAINER {
+    display: flex;
+    background-color: #f57f17;
+    height: 6vh;
+    width: 10%;
+    margin-top: 3vh;
+    margin-right: 1vw;
+    border-radius: 6%;
+    /* align-content: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
+.CATEGORY-CONTAINER>div {
+    background-color: #F57F17;
+    width: 50%;
+    height: 30%;
+    margin-left: 1.7vw;
+    /* align-content: center; */
+    /* margin-right: auto; */
+    margin-top: 1.7vh;
+    margin-right: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
 .DATE-CONTAINER{
     display:flex;
-    height: 50%;
-    width:11%;
-    background-color:mediumaquamarine;
-    flex-wrap: wrap;
-
+    flex-direction:row;
+    height: 35%;
+    width:7vw;
+    background-color:#fffde7;
+    /* flex-wrap: wrap; */
+    margin-left: 0.1vw;
+    margin-top: 0vh;
 }
 .DATE-CONTAINER p{
-    float: right;
+    
 }
 
 
@@ -144,6 +167,7 @@ header{
     border-style: none;
     height: 8vh;
     width: 16vw;
+    margin-top: 1.2vh;
 }
 
 
