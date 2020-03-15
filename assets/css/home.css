@@ -84,12 +84,49 @@ header{
     height: auto;
     width: 100%;
     display: flex;
+    margin-top: 0.5vh;
 }
 
 .details p{
     display:flex;
     list-style: square;
 }
+
+
+.DESCRIPTION-CONTAINER{
+    display:flex;
+    height: auto;
+    width:100%;
+    background-color:#fffde7;
+    color:gray
+}
+.CATEGORY-CONTAINER{
+    display:flex;
+    border:black;
+    
+    height: 10vh;
+    width:10%;
+    
+}
+.CATEGORY-CONTAINER h2{
+    background-color: yellowgreen;
+    color: white;
+    height: 7vh;
+    width:10vw;
+    align-items: center; 
+}
+.DATE-CONTAINER{
+    display:flex;
+    height: 50%;
+    width:11%;
+    background-color:mediumaquamarine;
+    flex-wrap: wrap;
+
+}
+.DATE-CONTAINER p{
+    float: right;
+}
+
 
 /* delete-button styling*/
 .details .delete-button{
@@ -114,4 +151,5 @@ button:hover{
     background-color: navajowhite;
     
 }
+
 

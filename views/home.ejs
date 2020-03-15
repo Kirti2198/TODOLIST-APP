@@ -104,32 +104,25 @@
                 <% for(let i of todo_List) { %>
                    <li class="todo" style="list-style: none;">
                       <!-- checkbox list  -->
-                      <input type="checkbox" name="<%= i.id %>" style="cursor: pointer; margin-top: 2.5vh;"  >
+                      <input type="checkbox" name="<%= i.id %>" style="cursor: pointer; margin-top: 3vh;"  >
 
                       <div class="details">
                            <!-- for getting the input which is added by the user and print it in the checkbox list -->
-                           <div>
-                            <p><%= i.description %></p>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        </div>
-                        <div>
-                            <p><%= i.category %></p>
-                        </div>        
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                        <div>
-                              <p> 
-                                <%=  i.date %>   
-                            </p>
-                        </div>
+                           <div class="DESCRIPTION-CONTAINER">
+                               <p><%= i.description %></p>
+                           </div>
+
+                            <div class="CATEGORY-CONTAINER">
+                                    <h2 ><%= i.category %></h2>
+                            </div>        
+                            <div class="DATE-CONTAINER">
+                                <p> 
+                                    <%=  i.date %>   
+                                </p>
+                            </div>
                       </div> 
                             
-                      <!-- <div class="delete-button">
-                                <a href="/delete-task/?id=<%= i._id %>">
-                                    <i class="fas fa-trash-alt"></i>
-                                </a>
-                      </div>  -->
-                            
-                   </li>
+                    </li>
 
                 <%  } %>
             </ul>
