@@ -85,16 +85,19 @@ header{
     width: 100%;
     display: flex;
 }
+
 .details p{
     display:flex;
     list-style: square;
 }
+
 /* delete-button styling*/
 .details .delete-button{
     width:20%;
     text-align: center;
     display: flex;
 }
+
 .button{
     margin-left: 24.8vw;
 }
