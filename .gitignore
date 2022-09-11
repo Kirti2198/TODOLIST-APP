@@ -1,3 +1,4 @@
 
 # folders which we want to ignored by github
 node_modules/
+package.lock.json
